@@ -1,0 +1,16 @@
+{
+    "name": "Random Quranic Gems",
+    "version": "1.0.0",
+    "description": "This is an extension to read quran verse",
+    "manifest_version": 3,
+    "author": "Azraf Sami",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Random Quranic Gems",
+        "default_icon":  "logo.png"
+    },
+    "icons" : {
+        "128": "logo.png"
+    },
+    "permissions": ["activeTab"]
+}
