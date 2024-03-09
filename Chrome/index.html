@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Verse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #arabic, #eng, #info {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            
+        }
+
+        #eng {
+            font-size: 18px;
+            color: #666;
+        }
+
+        #info {
+            font-size: 14px;
+            color: #999;
+        }
+
+        #card {
+           width: 180vh;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="card">
+        <span id="loading">Loading...</span>
+        <div id="arabic"></div>
+        <div id="eng"></div>
+        <div id="info"></div>
+    </div>
+</body>
+<script src="ayahData.js"></script>
+<script src="script.js"></script>
+</html>
